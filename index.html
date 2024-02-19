@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="current-weather">
+            <h2>Current Weather</h2>
+            <div id="weather-info">
+                <p><strong>Location:</strong> <span id="locatione">City</span></p>
+                <p><strong>Temperature:</strong> <span id="temperature">XX°C</span></p>
+            </div>
+            <form id="search-form">
+                <label for="city">Enter Location:</label>
+                <input type="text" id="city" name="location" placeholder="Enter city name" required>
+                <button type="submit" onclick="searchCity()">Search</button>
+                <p id="p">Try again</p>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weather Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
