@@ -1,5 +1,4 @@
-const API_KEY = "Your API Key";
-
+const API_KEY="c80821be1a2287cd32383ad92c1e3655"
 const locatione = document.getElementById("locatione");
 const temperature = document.getElementById("temperature");
 const city = document.getElementById("city");
